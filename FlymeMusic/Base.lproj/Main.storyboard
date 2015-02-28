@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="UWg-as-1vx">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MusicPlay.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ZFe-5a-nCP">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ZFe-5a-nCP" firstAttribute="bottom" secondItem="2fi-mo-0CV" secondAttribute="top" id="Gs8-bd-xAp"/>
+                            <constraint firstAttribute="trailing" secondItem="ZFe-5a-nCP" secondAttribute="trailing" id="LXO-cL-Xx1"/>
+                            <constraint firstItem="ZFe-5a-nCP" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="WSU-vd-Qts"/>
+                            <constraint firstItem="ZFe-5a-nCP" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="nw0-dy-Cra"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="testImage" destination="ZFe-5a-nCP" id="gbM-cz-bdS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116" y="274"/>
+        </scene>
+        <!--Flyme Lauch Screen View Controller-->
+        <scene sceneID="wIk-qP-fdz">
+            <objects>
+                <viewController id="UWg-as-1vx" customClass="FlymeLauchScreenViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1ZP-zn-TZT"/>
+                        <viewControllerLayoutGuide type="bottom" id="eWP-cd-kHH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kXa-l6-aRP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FlymeLogo Without Balloon.png" translatesAutoresizingMaskIntoConstraints="NO" id="fTO-jV-3YR">
+                                <rect key="frame" x="110" y="234" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="ILG-dd-pGR"/>
+                                    <constraint firstAttribute="height" constant="100" id="b3p-Nc-4Iu"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FlymeBallonOnly.png" translatesAutoresizingMaskIntoConstraints="NO" id="tyQ-fN-UXD">
+                                <rect key="frame" x="128" y="246" width="65" height="65"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="SWX-WI-GTn"/>
+                                    <constraint firstAttribute="width" constant="65" id="jST-RP-H1v"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="fTO-jV-3YR" secondAttribute="centerX" id="Ovz-DP-kDA"/>
+                            <constraint firstAttribute="centerX" secondItem="tyQ-fN-UXD" secondAttribute="centerX" id="awx-z2-nYq"/>
+                            <constraint firstAttribute="centerY" secondItem="tyQ-fN-UXD" secondAttribute="centerY" constant="5.5" id="pfR-KG-Vyu"/>
+                            <constraint firstAttribute="centerY" secondItem="fTO-jV-3YR" secondAttribute="centerY" id="y8r-3o-bTv"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="flymeBalloon" destination="tyQ-fN-UXD" id="TUo-eE-bEe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vVa-ev-h6A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116" y="929"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="FlymeBallonOnly.png" width="130" height="130"/>
+        <image name="FlymeLogo Without Balloon.png" width="200" height="200"/>
+        <image name="MusicPlay.jpg" width="1080" height="1920"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

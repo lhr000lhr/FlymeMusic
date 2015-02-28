@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A2D47681AA05E0A00C681B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2D47671AA05E0A00C681B7 /* main.m */; };
+		5A2D476B1AA05E0A00C681B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2D476A1AA05E0A00C681B7 /* AppDelegate.m */; };
+		5A2D476E1AA05E0A00C681B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2D476D1AA05E0A00C681B7 /* ViewController.m */; };
+		5A2D47711AA05E0A00C681B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A2D476F1AA05E0A00C681B7 /* Main.storyboard */; };
+		5A2D47731AA05E0A00C681B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A2D47721AA05E0A00C681B7 /* Images.xcassets */; };
+		5A2D47761AA05E0A00C681B7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A2D47741AA05E0A00C681B7 /* LaunchScreen.xib */; };
+		5A2D47821AA05E0A00C681B7 /* FlymeMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2D47811AA05E0A00C681B7 /* FlymeMusicTests.m */; };
+		5A2D478D1AA06B0E00C681B7 /* MusicPlay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A2D478C1AA06B0E00C681B7 /* MusicPlay.jpg */; };
+		5A3520D31AA165D600B9408F /* FlymeLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A3520D21AA165D600B9408F /* FlymeLogo.jpg */; };
+		5A3520D51AA165DA00B9408F /* FlymeBallonOnly.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3520D41AA165DA00B9408F /* FlymeBallonOnly.png */; };
+		5A3520D71AA166B900B9408F /* FlymeLogo Without Balloon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3520D61AA166B900B9408F /* FlymeLogo Without Balloon.png */; };
+		5A3520DA1AA1686E00B9408F /* FlymeLauchScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3520D91AA1686E00B9408F /* FlymeLauchScreenViewController.m */; };
+		5A3520DD1AA17B6B00B9408F /* PDAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3520DC1AA17B6B00B9408F /* PDAnimationManager.m */; };
+		5A3520E61AA18F1600B9408F /* UIView+i7Rotate360.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3520E51AA18F1600B9408F /* UIView+i7Rotate360.m */; };
+		5A3520E81AA1907A00B9408F /* FlymeBallonOnlyRotation.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3520E71AA1907A00B9408F /* FlymeBallonOnlyRotation.png */; };
+		C94602C5856B4FA0277D9611 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 828024EC97CED630EAF88C52 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A2D477C1AA05E0A00C681B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A2D475A1AA05E0A00C681B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A2D47611AA05E0A00C681B7;
+			remoteInfo = FlymeMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10AF200622996BAEE965DF71 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		5A2D47621AA05E0A00C681B7 /* FlymeMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlymeMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A2D47661AA05E0A00C681B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A2D47671AA05E0A00C681B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A2D47691AA05E0A00C681B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A2D476A1AA05E0A00C681B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A2D476C1AA05E0A00C681B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5A2D476D1AA05E0A00C681B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5A2D47701AA05E0A00C681B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A2D47721AA05E0A00C681B7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5A2D47751AA05E0A00C681B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5A2D477B1AA05E0A00C681B7 /* FlymeMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlymeMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A2D47801AA05E0A00C681B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A2D47811AA05E0A00C681B7 /* FlymeMusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlymeMusicTests.m; sourceTree = "<group>"; };
+		5A2D478C1AA06B0E00C681B7 /* MusicPlay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MusicPlay.jpg; sourceTree = "<group>"; };
+		5A3520D21AA165D600B9408F /* FlymeLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FlymeLogo.jpg; sourceTree = "<group>"; };
+		5A3520D41AA165DA00B9408F /* FlymeBallonOnly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FlymeBallonOnly.png; sourceTree = "<group>"; };
+		5A3520D61AA166B900B9408F /* FlymeLogo Without Balloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FlymeLogo Without Balloon.png"; sourceTree = "<group>"; };
+		5A3520D81AA1686E00B9408F /* FlymeLauchScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlymeLauchScreenViewController.h; sourceTree = "<group>"; };
+		5A3520D91AA1686E00B9408F /* FlymeLauchScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlymeLauchScreenViewController.m; sourceTree = "<group>"; };
+		5A3520DB1AA17B6B00B9408F /* PDAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDAnimationManager.h; sourceTree = "<group>"; };
+		5A3520DC1AA17B6B00B9408F /* PDAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDAnimationManager.m; sourceTree = "<group>"; };
+		5A3520E41AA18F1600B9408F /* UIView+i7Rotate360.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+i7Rotate360.h"; sourceTree = "<group>"; };
+		5A3520E51AA18F1600B9408F /* UIView+i7Rotate360.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+i7Rotate360.m"; sourceTree = "<group>"; };
+		5A3520E71AA1907A00B9408F /* FlymeBallonOnlyRotation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FlymeBallonOnlyRotation.png; sourceTree = "<group>"; };
+		7B13290CACF30A4618C5C908 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		828024EC97CED630EAF88C52 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A2D475F1AA05E0A00C681B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C94602C5856B4FA0277D9611 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A2D47781AA05E0A00C681B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CA2DFD442D24FE435885273 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10AF200622996BAEE965DF71 /* Pods.debug.xcconfig */,
+				7B13290CACF30A4618C5C908 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5A2D47591AA05E0A00C681B7 = {
+			isa = PBXGroup;
+			children = (
+				5A2D47641AA05E0A00C681B7 /* FlymeMusic */,
+				5A2D477E1AA05E0A00C681B7 /* FlymeMusicTests */,
+				5A3520E21AA18F1600B9408F /* 开源库 */,
+				5A2D478B1AA06B0E00C681B7 /* img */,
+				5A2D47631AA05E0A00C681B7 /* Products */,
+				1CA2DFD442D24FE435885273 /* Pods */,
+				97DDC6A86C2116525D772571 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5A2D47631AA05E0A00C681B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A2D47621AA05E0A00C681B7 /* FlymeMusic.app */,
+				5A2D477B1AA05E0A00C681B7 /* FlymeMusicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A2D47641AA05E0A00C681B7 /* FlymeMusic */ = {
+			isa = PBXGroup;
+			children = (
+				5A2D47691AA05E0A00C681B7 /* AppDelegate.h */,
+				5A2D476A1AA05E0A00C681B7 /* AppDelegate.m */,
+				5A2D476C1AA05E0A00C681B7 /* ViewController.h */,
+				5A2D476D1AA05E0A00C681B7 /* ViewController.m */,
+				5A3520D81AA1686E00B9408F /* FlymeLauchScreenViewController.h */,
+				5A3520D91AA1686E00B9408F /* FlymeLauchScreenViewController.m */,
+				5A2D476F1AA05E0A00C681B7 /* Main.storyboard */,
+				5A2D47721AA05E0A00C681B7 /* Images.xcassets */,
+				5A2D47741AA05E0A00C681B7 /* LaunchScreen.xib */,
+				5A3520DB1AA17B6B00B9408F /* PDAnimationManager.h */,
+				5A3520DC1AA17B6B00B9408F /* PDAnimationManager.m */,
+				5A2D47651AA05E0A00C681B7 /* Supporting Files */,
+			);
+			path = FlymeMusic;
+			sourceTree = "<group>";
+		};
+		5A2D47651AA05E0A00C681B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A2D47661AA05E0A00C681B7 /* Info.plist */,
+				5A2D47671AA05E0A00C681B7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A2D477E1AA05E0A00C681B7 /* FlymeMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A2D47811AA05E0A00C681B7 /* FlymeMusicTests.m */,
+				5A2D477F1AA05E0A00C681B7 /* Supporting Files */,
+			);
+			path = FlymeMusicTests;
+			sourceTree = "<group>";
+		};
+		5A2D477F1AA05E0A00C681B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A2D47801AA05E0A00C681B7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A2D478B1AA06B0E00C681B7 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				5A3520E71AA1907A00B9408F /* FlymeBallonOnlyRotation.png */,
+				5A3520D41AA165DA00B9408F /* FlymeBallonOnly.png */,
+				5A3520D21AA165D600B9408F /* FlymeLogo.jpg */,
+				5A2D478C1AA06B0E00C681B7 /* MusicPlay.jpg */,
+				5A3520D61AA166B900B9408F /* FlymeLogo Without Balloon.png */,
+			);
+			name = img;
+			path = FlymeMusic/img;
+			sourceTree = "<group>";
+		};
+		5A3520E21AA18F1600B9408F /* 开源库 */ = {
+			isa = PBXGroup;
+			children = (
+				5A3520E31AA18F1600B9408F /* rotation360 */,
+			);
+			path = "开源库";
+			sourceTree = "<group>";
+		};
+		5A3520E31AA18F1600B9408F /* rotation360 */ = {
+			isa = PBXGroup;
+			children = (
+				5A3520E41AA18F1600B9408F /* UIView+i7Rotate360.h */,
+				5A3520E51AA18F1600B9408F /* UIView+i7Rotate360.m */,
+			);
+			path = rotation360;
+			sourceTree = "<group>";
+		};
+		97DDC6A86C2116525D772571 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				828024EC97CED630EAF88C52 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A2D47611AA05E0A00C681B7 /* FlymeMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A2D47851AA05E0A00C681B7 /* Build configuration list for PBXNativeTarget "FlymeMusic" */;
+			buildPhases = (
+				67104BF3F386F8F6E08C3B46 /* Check Pods Manifest.lock */,
+				5A2D475E1AA05E0A00C681B7 /* Sources */,
+				5A2D475F1AA05E0A00C681B7 /* Frameworks */,
+				5A2D47601AA05E0A00C681B7 /* Resources */,
+				CDF671AA8700E682F2F01F59 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlymeMusic;
+			productName = FlymeMusic;
+			productReference = 5A2D47621AA05E0A00C681B7 /* FlymeMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A2D477A1AA05E0A00C681B7 /* FlymeMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A2D47881AA05E0A00C681B7 /* Build configuration list for PBXNativeTarget "FlymeMusicTests" */;
+			buildPhases = (
+				5A2D47771AA05E0A00C681B7 /* Sources */,
+				5A2D47781AA05E0A00C681B7 /* Frameworks */,
+				5A2D47791AA05E0A00C681B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A2D477D1AA05E0A00C681B7 /* PBXTargetDependency */,
+			);
+			name = FlymeMusicTests;
+			productName = FlymeMusicTests;
+			productReference = 5A2D477B1AA05E0A00C681B7 /* FlymeMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A2D475A1AA05E0A00C681B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = LHR;
+				TargetAttributes = {
+					5A2D47611AA05E0A00C681B7 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					5A2D477A1AA05E0A00C681B7 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 5A2D47611AA05E0A00C681B7;
+					};
+				};
+			};
+			buildConfigurationList = 5A2D475D1AA05E0A00C681B7 /* Build configuration list for PBXProject "FlymeMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A2D47591AA05E0A00C681B7;
+			productRefGroup = 5A2D47631AA05E0A00C681B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A2D47611AA05E0A00C681B7 /* FlymeMusic */,
+				5A2D477A1AA05E0A00C681B7 /* FlymeMusicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A2D47601AA05E0A00C681B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A2D47711AA05E0A00C681B7 /* Main.storyboard in Resources */,
+				5A3520D51AA165DA00B9408F /* FlymeBallonOnly.png in Resources */,
+				5A2D47761AA05E0A00C681B7 /* LaunchScreen.xib in Resources */,
+				5A3520D71AA166B900B9408F /* FlymeLogo Without Balloon.png in Resources */,
+				5A2D47731AA05E0A00C681B7 /* Images.xcassets in Resources */,
+				5A3520E81AA1907A00B9408F /* FlymeBallonOnlyRotation.png in Resources */,
+				5A3520D31AA165D600B9408F /* FlymeLogo.jpg in Resources */,
+				5A2D478D1AA06B0E00C681B7 /* MusicPlay.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A2D47791AA05E0A00C681B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67104BF3F386F8F6E08C3B46 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CDF671AA8700E682F2F01F59 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A2D475E1AA05E0A00C681B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A3520DA1AA1686E00B9408F /* FlymeLauchScreenViewController.m in Sources */,
+				5A3520E61AA18F1600B9408F /* UIView+i7Rotate360.m in Sources */,
+				5A2D476E1AA05E0A00C681B7 /* ViewController.m in Sources */,
+				5A2D476B1AA05E0A00C681B7 /* AppDelegate.m in Sources */,
+				5A3520DD1AA17B6B00B9408F /* PDAnimationManager.m in Sources */,
+				5A2D47681AA05E0A00C681B7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A2D47771AA05E0A00C681B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A2D47821AA05E0A00C681B7 /* FlymeMusicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A2D477D1AA05E0A00C681B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A2D47611AA05E0A00C681B7 /* FlymeMusic */;
+			targetProxy = 5A2D477C1AA05E0A00C681B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A2D476F1AA05E0A00C681B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A2D47701AA05E0A00C681B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A2D47741AA05E0A00C681B7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A2D47751AA05E0A00C681B7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A2D47831AA05E0A00C681B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5A2D47841AA05E0A00C681B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A2D47861AA05E0A00C681B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10AF200622996BAEE965DF71 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = FlymeMusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5A2D47871AA05E0A00C681B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B13290CACF30A4618C5C908 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = FlymeMusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5A2D47891AA05E0A00C681B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlymeMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlymeMusic.app/FlymeMusic";
+			};
+			name = Debug;
+		};
+		5A2D478A1AA05E0A00C681B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlymeMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlymeMusic.app/FlymeMusic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A2D475D1AA05E0A00C681B7 /* Build configuration list for PBXProject "FlymeMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A2D47831AA05E0A00C681B7 /* Debug */,
+				5A2D47841AA05E0A00C681B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A2D47851AA05E0A00C681B7 /* Build configuration list for PBXNativeTarget "FlymeMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A2D47861AA05E0A00C681B7 /* Debug */,
+				5A2D47871AA05E0A00C681B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A2D47881AA05E0A00C681B7 /* Build configuration list for PBXNativeTarget "FlymeMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A2D47891AA05E0A00C681B7 /* Debug */,
+				5A2D478A1AA05E0A00C681B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A2D475A1AA05E0A00C681B7 /* Project object */;
+}
